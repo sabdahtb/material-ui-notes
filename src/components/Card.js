@@ -16,7 +16,7 @@ export default function Cards({ note, handleDelete }) {
       <Card>
         <CardHeader
           title={note.title}
-          subheader={note.id}
+          subheader={note.category}
           action={
             <IconButton
               sx={{
